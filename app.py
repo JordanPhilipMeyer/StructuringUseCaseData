@@ -3,6 +3,7 @@
 import json
 from random import randint
 import pandas as pd
+import DataDictionaryAPI
 
 with open('Use Cases/usecase.json') as f:
     data = json.load(f)
@@ -53,6 +54,8 @@ def updateDataElementsWithIDTag(data, lookup_df, lookup_table, element_type='Pri
 
             element['Value Set'] = valueIDPairing
             print(element['Value Set'])
+        new_record = DataDictionaryAPI.format_new_record_for_data_dictionary(element, data, element_type)
+        DataDictionaryAPI.update_DD_CSV(new_record)
     print(data['Data Elements'][element_type])
     return data
 
