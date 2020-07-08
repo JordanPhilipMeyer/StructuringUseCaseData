@@ -59,7 +59,7 @@
       {
         "Data Element": "Appendix status",
         "RadElement ID": "",
-        "Defintion": "the status of the appendix",
+        "Definition": "the status of the appendix",
         "Data Type": "categorical",
         "Value Set": [
           "normal",
@@ -71,7 +71,7 @@
       {
         "Data Element": "Appendix rupture",
         "RadElement ID": "",
-        "Defintion": "presence of rupture in the appendix",
+        "Definition": "presence of rupture in the appendix",
         "Data Type": "categorical",
         "Value Set": [
           "removed appendix",
@@ -83,17 +83,17 @@
     ],
     "Secondary Outputs": [
       {
-        "Data Element Title": "Appendiceal diameter",
+        "Data Element": "Appendiceal diameter",
         "RadElement ID": "RDE196",
-        "Defintion": "diameter of the appendiceal",
+        "Definition": "diameter of the appendiceal",
         "Data Type": "numerical",
         "Value Set": "N/A",
         "Units": "n/a"
       },
       {
-        "Data Element Title": "Peri-appendiceal fat stranding",
+        "Data Element": "Peri-appendiceal fat stranding",
         "RadElement ID": "RDE197",
-        "Defintion": "detection of fat straning around the appendiceal",
+        "Definition": "detection of fat straning around the appendiceal",
         "Data Type": "categorical",
         "Value Set": [
           "absent",
@@ -102,9 +102,9 @@
         "Units": "n/a"
       },
       {
-        "Data Element Title": "Free fluid",
+        "Data Element": "Free fluid",
         "RadElement ID": "RDE198",
-        "Defintion": "detection of free fluid around the appendiceal",
+        "Definition": "detection of free fluid around the appendiceal",
         "Data Type": "categorical",
         "Value Set": [
           "absent",
@@ -113,9 +113,9 @@
         "Units": "n/a"
       },
       {
-        "Data Element Title": "Obstructing Focus",
+        "Data Element": "Obstructing Focus",
         "RadElement ID": "RDE199",
-        "Defintion": "presence of obstucting mass such as stone or fecalith",
+        "Definition": "presence of obstucting mass such as stone or fecalith",
         "Data Type": "categorical",
         "Value Set": [
           "absent",
@@ -124,9 +124,9 @@
         "Units": "n/a"
       },
       {
-        "Data Element Title": "Lumen Contents",
+        "Data Element": "Lumen Contents",
         "RadElement ID": "RDE200",
-        "Defintion": "content within the lumen",
+        "Definition": "content within the lumen",
         "Data Type": "categorical",
         "Value Set": [
           "air-filled",
@@ -136,9 +136,9 @@
         "Units": "n/a"
       },
       {
-        "Data Element Title": "Peri-appendiceal abscess",
+        "Data Element": "Peri-appendiceal abscess",
         "RadElement ID": "RDE201",
-        "Defintion": "states the presence of the Peri-appendiceal abscess",
+        "Definition": "states the presence of the Peri-appendiceal abscess",
         "Data Type": "categorical",
         "Value Set": [
           "absent",
@@ -147,9 +147,9 @@
         "Units": "n/a"
       },
       {
-        "Data Element Title": "Opacification",
+        "Data Element": "Opacification",
         "RadElement ID": "RDE202",
-        "Defintion": "opacification of the appendix",
+        "Definition": "opacification of the appendix",
         "Data Type": "categorical",
         "Value Set": [
           "absent",
