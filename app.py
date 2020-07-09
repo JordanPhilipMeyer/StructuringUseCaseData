@@ -50,8 +50,8 @@ def updateDataElementsWithIDTag(data, lookup_df, lookup_table, element_type='Pri
                     valueIDPairing[option] = tag
                     print(tag, option)
                     updateValueSetCSV(option, tag, lookup_df)
+                    lookup_table, lookup_df = get_lookup_dict()
                     # print(lookup_df.head())
-
             element['Value Set'] = valueIDPairing
             print(element['Value Set'])
         new_record = DataDictionaryAPI.format_new_record_for_data_dictionary(element, data, element_type)
