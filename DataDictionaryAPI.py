@@ -92,5 +92,5 @@ def update_DD_CSV(new_record):
     # new_record = format_new_record_for_data_dictionary(element, data)
 
     with open(r'DataDictionary.csv', 'a') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator ='\n')
         writer.writerow(new_record)
